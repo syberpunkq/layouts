@@ -1,0 +1,452 @@
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+	min-height: 100% !important;
+	min-height: auto;
+	height: 100%;
+	border: none; 
+	}
+	html, body {height: 100%;}
+
+body {
+	margin: 0;
+	padding: 0; 
+	}
+
+	#header {
+	height: 235px;
+	width:100%;
+	background-image: url(images/headerbg.jpg);
+	background-repeat: no-repeat;
+	background-position: top; 
+	z-index:-5;
+	}
+	/* --------------------------------------------------------kljhklsdjhfkljdhasflkjhsdakljfhlasdkjfhlkdjashflkjdhasfl-------------------------------------------------- */
+#wrapper {
+	top:-240px;
+	display: block;
+	position: relative;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	width: 100%;
+	min-width: 800px; 
+	_height: 100%; 
+
+
+	}
+
+#container {
+	width: 1163px;
+	margin: auto;
+	display: block;
+	height: 1%;
+	padding: 0 0 50px 0;
+	
+	}
+
+
+
+
+
+/* Top 
+-----------------------------------------------------------------------------*/
+#header_container {
+
+
+	
+	box-shadow:  0 0 5px #888;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius:10px;
+	border-radius: 10px;
+	width: 1163px;
+	margin: auto;
+	background-image: url(images/middleupbg.jpg);
+	background-position: top; 
+	behavior: url(../PIE.htc);
+	position:relative;
+	overflow:auto;
+	background-color:#e8fafc;
+	background-image:url(images/middledownbg.jpg);
+	background-repeat: repeat-x;
+	background-position:center bottom;
+	min-height:100%;
+	height:100%;
+	box-shadow:  0 0  5px #888;
+	-moz-box-shadow: 0 0  5px #888;
+	-webkit-box-shadow: 0 0  5px #888;
+	}
+
+
+#topLeft {
+	float: left;
+	width: 247px;
+	/*margin-left: -100%;*/
+	position: relative;
+	height: 365px;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 15px 10px; 
+	}
+	
+#slider {
+	float: left;
+	position:relative;
+	/*padding: 0 252px 0 287px;*/
+	width:648px;
+	height: 365px;
+	background-image: url(images/slider.png);
+	background-repeat: no-repeat;
+	background-position: center 6px; 
+	z-index:100;
+	}
+
+#topRight {
+	
+	width: 268px;
+	/*margin-right: -3px;
+	margin-left: -268px;*/
+	float:left;
+	height: 365px;
+	position: relative;
+	background-image: url(images/info.png);
+	background-repeat: no-repeat;
+	background-position: -5px 30px;
+	background-size:275px;
+
+	
+	}
+
+/* Top Menu
+-----------------------------------------------------------------------------*/
+#top_menu {
+	position: absolute;
+	top: 365px;
+	left: 3px;
+	height: 81px;
+	width: 1256px;
+	background-image: url(images/menu.png);
+	}
+
+	#top_menu .menu {
+		position: relative;
+		top: -89px;
+		left: 70px;
+		overflow: hidden;
+		width: 1000px;
+		height: 30px;
+		margin: 100px auto; 
+		}
+
+	#top_menu li {
+		float: left;
+		list-style: none;
+		padding: 0 5px 0 25px;
+		background-image: url(images/diamond.png);
+		background-repeat: no-repeat;
+		background-position: center left; 
+		}
+
+		#top_menu li.fist { 
+		background-image: none; 
+		}
+
+		#top_menu li a {
+			text-align: center;
+			line-height: 30px;
+			font-size: 29px;
+			color: #fff;
+			font-family: Times;
+			text-decoration: none; }
+
+			#top_menu li a:hover { 
+			text-decoration:underline;
+			}
+			
+				
+			#nav li{border-left:1px solid #000}
+/* Middle
+----------------------------------------------------------------------------- */
+#clear{
+	clear:both;
+
+}
+#mid_container {
+	position:relative;
+	top:-40px;
+	width:1163px;
+	overflow:auto;
+	background-color:#e8fafc;
+	background-image:url(images/middledownbg.jpg);
+	background-repeat: repeat-x;
+	background-position:center bottom;
+	min-height:100%;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-khtml-border-radius:10px 10px 0 0;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow:  0 0  5px #888;
+	-moz-box-shadow: 0 0  5px #888;
+	-webkit-box-shadow: 0 0  5px #888;
+	behavior: url(../PIE.htc);
+	
+	}
+	
+	
+/* Side Left
+-----------------------------------------------------------------------------*/
+#sideLeft {
+	margin:70px 0;
+	float: left;
+	width: 258px;
+	position: relative;
+	min-height: 365px;
+	background-repeat: no-repeat;
+	background-position: 15px 10px; 
+}
+
+#left_menu1 ul, #left_menu2 ul {
+	margin: 20px 0 0 0;
+	padding: 53px 0 0 0;
+	width:258px;
+	
+}	
+	
+#left_menu1 li a, #left_menu2 li a {
+			display: block;
+			min-width:258px;
+			text-align: center;
+			line-height: 30px;
+			font-size: 20px;
+			color: #0182ab;
+			font-family: Times;
+			
+			 }
+
+			#left_menu1 li a:hover, #left_menu2 li a:hover { 
+			text-decoration: none; 
+			background-image:url(images/menu_hover.png);
+			background-repeat:repeat-x;
+			}
+			
+#left_menu1{
+	background-image:url(images/surgery.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+#left_menu2{
+	background-image:url(images/cosmetology.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+	
+/* Center
+-----------------------------------------------------------------------------*/
+#center {
+
+margin:50px 0;
+
+	float:left;
+	width: 687px;
+	position: relative;
+	min-height: 365px;
+	border:1px solid #c2c2c2;
+	background:#fff;
+}
+.pagename {
+margin:15px auto;
+inline:block;
+text-transform:capitalize;
+color: #ff75be; 
+text-align:center;
+font-size:20px;
+}
+.textblock1{
+padding:10px;
+margin:20px 0 0 0;
+color: #808080;
+font-size:16px;
+background-image:url(images/textblockbg.gif);
+background-repeat:repeat-x;
+background-position:center bottom;
+}
+.textblock1 h3{
+color: #ff75be; 
+text-align:left;
+font-size:18px;
+}
+
+
+/* Side Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	margin:70px 0;
+	float: left;
+	width: 216px;
+	min-height: 348px;
+	position: relative;
+	background-image: url(images/women.png);
+	background-repeat: no-repeat;
+	background-position: 10px 20px;
+
+
+	}
+
+#news_block {
+	position: relative;
+	background-image: url(images/news.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin: 280px 0 0 0;
+	padding: 60px 0 0 0; }
+
+.news_data { 
+	margin: 0px 5px 0px 5px;
+	color: #ff75be; }
+
+.news_text { margin: 0px 7px 15px 5px; }
+
+
+
+#bott_menu{
+	overflow:hidden;
+	
+	margin: 5px auto;
+	padding: 5px auto;
+	width: 500px;
+}
+	#bott_menu .menu{
+		float: left;
+		list-style: none;
+		padding: 0 5px 0 25px;
+		
+		
+	}
+	#bott_menu li { 
+	float:left;
+	}
+	
+	#bott_menu li.first a{ 
+		border:none;
+		}
+
+		#bott_menu li a {
+		margin:20px 0 0 -1px;
+			text-align:center;
+			padding: 3px 10px 3px 10px;
+			border-left:1px solid #0182ab;
+			display: block;
+			font-size: 20px;
+			color: #0182ab;
+			font-family: Times;
+			text-decoration: none; 
+			
+			}
+
+			#bott_menu li a:hover { 
+			text-decoration:underline;
+			}
+	
+	
+	
+	
+	
+#whiteline {
+position: relative;
+
+
+	clear:both;
+	height: 3px;
+	float:none;
+	background-image:url(images/whiteline.png);
+}
+
+#copyright {
+	float: left;
+	margin:30px 100px 10px 100px ;
+	
+
+}
+
+#counter {
+	float: left;
+	margin:30px 10px 10px 10px;
+	background-image:url(images/counter.png);
+	height:31px;
+	width:88px;
+}
+
+
+#logo {
+float: left;
+margin:30px 100px 10px 100px ;
+	background-image:url(images/nt_logo.png);
+	height:27px;
+	width:117px;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+#footer {
+	clear:both;
+	width:1256px;
+	margin: -450px auto 0;
+	height: 234px;
+	position: relative;
+	background-image: url(images/footerbg.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	z-index: -5; 
+	
+	}
